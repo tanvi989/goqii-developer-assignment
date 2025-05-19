@@ -1,0 +1,26 @@
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import UserForm from './components/UserForm';
+import UserList from './components/UserList';
+import ConnectFab from './components/ConnectFab'
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6">
+            <UserForm />
+          </div>
+          <div className="col-md-6">
+            <UserList />
+          </div>
+        </div>
+      </div>
+      <Footer />
+      <ConnectFab /> {/* ✅ Add it here, after Footer */}
+    </>
+  );
+}
+
+export default App;
