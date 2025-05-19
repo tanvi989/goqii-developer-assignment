@@ -1,8 +1,14 @@
 GOQii Developer Assignment
-This is a full-stack developer assignment project for GOQii, demonstrating backend API development, frontend integration, database management, and version control using GitHub.
 
-Project Structure
--developer-assignment/
+
+
+This is a full-stack developer project for GOQii, demonstrating backend API development, frontend integration, database management, and version control using GitHub.
+
+📁 Project Structure
+pgsql
+Copy
+Edit
+developer-assignment/
 ├── backend/
 │   ├── db.php
 │   └── user/
@@ -22,35 +28,35 @@ Project Structure
 │           ├── App.jsx
 │           └── main.jsx
 ├── README.md
-Features
-Create, Read, Update, Delete (CRUD) API in Core PHP
+✨ Features
+Full CRUD functionality using Core PHP
 
-SQL database integration for user entity
+MySQL database integration for user management
 
-Frontend built using React.js with Bootstrap for styling
+React.js frontend with Bootstrap styling
 
-Fully responsive and mobile-friendly UI
+Responsive and mobile-friendly UI
 
-CSV download feature for user data
+Export user data as CSV
 
-Version control with Git, hosted on GitHub
+Version control using Git and GitHub
 
-Tech Stack
-Frontend: React.js + Bootstrap + Vite
+🛠 Tech Stack
+Frontend: React.js, Bootstrap, Vite
 
-Backend: Core PHP (RESTful API)
+Backend: Core PHP (REST API)
 
 Database: MySQL
 
 Version Control: Git + GitHub
 
-Setup Instructions
+🚀 Setup Instructions
 Backend
-Place the backend/ folder inside your local XAMPP htdocs directory (e.g., C:/xampp/htdocs/backend).
+Move the backend/ folder into your XAMPP htdocs directory:
+C:/xampp/htdocs/backend
 
-Create a database in MySQL and import the following schema:
+Create a MySQL database and import the schema:
 
-sql
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -60,65 +66,55 @@ CREATE TABLE users (
   dob DATE NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-Configure your database credentials in db.php:
+Configure database credentials in db.php:
 
-php
-Copy
-Edit
+
 $host = 'localhost';
 $db   = 'your_database_name';
 $user = 'root';
 $pass = '';
-Ensure all PHP API files include CORS headers at the top:
+Add CORS headers at the top of each PHP API file:
 
-php
-Copy
-Edit
+
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 Frontend
-Navigate to the frontend folder:
+Navigate to the frontend directory:
 
-bash
-Copy
-Edit
+
 cd frontend/goqii-frontend
-Install required dependencies:
+Install dependencies:
 
-bash
-Copy
-Edit
+
 npm install
 Start the development server:
 
-bash
-Copy
-Edit
-npm run dev
-Make sure your backend is running and accessible from http://localhost/backend/.
 
-How to Use
-Fill out the form to add new users
+npm run dev
+Make sure your backend is running at: http://localhost/backend/
+
+📚 How to Use
+Add new users via the form
 
 View all users in the list
 
 Edit or delete individual users
 
-Export the full user list to a CSV file
+Export the user list as a CSV file
 
-Key Decisions & Notes
-Used Core PHP for backend as per requirement
+📝 Notes & Key Decisions
+Used Core PHP as specified in the requirements
 
 Passwords are securely stored using password_hash()
 
-Frontend interacts with the backend using the fetch() API
+Frontend communicates with the backend via the fetch() API
 
-Bootstrap was used to ensure quick, responsive layout
+Bootstrap ensures a clean and responsive UI
 
-CSV generation is handled entirely in the frontend
+CSV export is implemented entirely in the frontend
 
-The project structure is modular and well-commented for clarity
+Codebase is modular and well-commented for clarity
 
-Submission
+🔗 Submission
 GitHub Repository: https://github.com/tanvi989/goqii-developer-assignment
 
