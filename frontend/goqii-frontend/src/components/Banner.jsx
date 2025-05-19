@@ -15,7 +15,7 @@ export default function Banner() {
       (pkg) => pkg.name.toLowerCase() === query.trim().toLowerCase()
     );
     if (match) {
-      window.location.href = `https://dev.yourbestwayhome.com.au/fare/tour-details.php?item_id=${match.item_id}&shortname=${match.shortname}`;
+      window.location.href = ``;
     } else {
       alert("Please type the full package name exactly as shown.");
     }
@@ -23,7 +23,7 @@ export default function Banner() {
 
   return (
     <>
-      {/* ✅ CSS Embedded Here */}
+  
       <style>{`
         .banner-wrapper {
           width: 100%;
@@ -120,7 +120,7 @@ export default function Banner() {
         }
       `}</style>
 
-      {/* ✅ HTML */}
+
       <div className="banner-wrapper">
         <div className="banner">
           <div className="banner-text">

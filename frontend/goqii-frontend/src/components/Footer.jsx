@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
-// Styled Components
+
 const FooterContainer = styled.footer`
   background-color: #101820;
   color: white;
@@ -194,7 +194,7 @@ const BranchContacts = styled.div`
   margin-top: 8px;
 `;
 
-// Dummy social links (update with GOQii's if available)
+
 const socialMediaLinks = [
   { href: "#", src: "https://images.wanderon.in/icons/facebook", alt: "Facebook" },
   { href: "#", src: "https://images.wanderon.in/icons/instagram", alt: "Instagram" },
@@ -224,9 +224,9 @@ const footerSections = [
   {
     title: "Talk to Us",
     links: [
-      { label: "+91-9875097169", href: "tel:+919875097169", icon: <FaPhoneAlt /> },
+      { label: "+91-9969954445", href: "tel:+919969953445", icon: <FaPhoneAlt /> },
       { label: "info@goqii.com", href: "mailto:info@goqii.com", icon: <FaEnvelope /> },
-      { label: "WhatsApp Us", href: "https://wa.me/919875097169", icon: <FaWhatsapp /> },
+      { label: "WhatsApp Us", href: "https://wa.me/919969953445", icon: <FaWhatsapp /> },
     ],
   },
 ];
@@ -289,7 +289,7 @@ const Footer = () => {
         </p>
         <div className="contact-horizontal">
           <p><a href="mailto:info@goqii.com">info@goqii.com</a></p>
-          <p><a href="tel:+919875097169">+91 98750 97169</a></p>
+          <p><a href="tel:+919875097169">+91 9969953445</a></p>
           <p><a href="https://www.goqii.com">www.goqii.com</a></p>
         </div>
       </FooterContact>

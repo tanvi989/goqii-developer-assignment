@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      {/* ✅ Embedded CSS */}
+   
       <style>{`
         .navbar {
           position: sticky;
@@ -97,7 +97,7 @@ export default function Navbar() {
         }
       `}</style>
 
-      {/* ✅ Navbar HTML */}
+
       <nav className="navbar">
         <div className="logo">
           <a href="https://www.goqii.com" target="_blank" rel="noreferrer">
@@ -119,7 +119,7 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* ✅ Mobile Menu */}
+
       <ul className={`mobile-menu ${mobileOpen ? "open" : ""}`}>
         <li><a href="/" onClick={() => setMobileOpen(false)}>Home</a></li>
         <li><a href="#about" onClick={() => setMobileOpen(false)}>About</a></li>

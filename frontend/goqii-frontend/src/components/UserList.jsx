@@ -7,7 +7,7 @@ export default function UserList() {
   const [loading, setLoading] = useState(true);
   const [editUser, setEditUser] = useState(null);
 
-  // Fetch users from backend
+ 
   const fetchUsers = async () => {
     try {
       const res = await fetch("http://localhost/backend/user/read.php");
@@ -50,7 +50,7 @@ export default function UserList() {
     }
   };
 
-  // Edit modal handlers
+
   const handleEdit = (user) => {
     setEditUser(user);
   };

@@ -9,12 +9,12 @@ import {
   FaTimes,
 } from "react-icons/fa";
 
-// Theme colors
+
 const primaryColor = "#00796B";
 const accentColor = "#E0F2F1";
 const white = "#ffffff";
 
-// Animation
+
 const fadeInUp = keyframes`
   from {
     opacity: 0;
@@ -26,7 +26,7 @@ const fadeInUp = keyframes`
   }
 `;
 
-// Wrapper to lock FAB in place
+
 const FabContainer = styled.div`
   position: fixed;
   bottom: 25px;
@@ -34,7 +34,7 @@ const FabContainer = styled.div`
   z-index: 1000;
 `;
 
-// Position option box absolutely above the button
+
 const FabOptionsWrapper = styled.div`
   position: absolute;
   bottom: 70px; /* Adjust so it starts above FAB */
@@ -95,13 +95,13 @@ export default function ConnectFab() {
     <FabContainer>
       {open && (
         <FabOptionsWrapper>
-          <FabOption href="https://wa.me/919875097169" target="_blank" rel="noopener noreferrer">
+          <FabOption href="https://wa.me/919969953445" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp /> WhatsApp
           </FabOption>
           <FabOption href="mailto:info@goqii.com">
             <FaEnvelope /> Email Us
           </FabOption>
-          <FabOption href="tel:+919875097169">
+          <FabOption href="tel:+919969953445">
             <FaPhoneAlt /> Call Us
           </FabOption>
           <FabOption href="#chatbot">

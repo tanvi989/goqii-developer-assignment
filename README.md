@@ -51,8 +51,7 @@ Place the backend/ folder inside your local XAMPP htdocs directory (e.g., C:/xam
 Create a database in MySQL and import the following schema:
 
 sql
-Copy
-Edit
+
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,

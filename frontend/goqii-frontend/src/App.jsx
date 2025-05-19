@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
       <Footer />
-      <ConnectFab /> {/* ✅ Add it here, after Footer */}
+      <ConnectFab /> 
     </>
   );
 }
