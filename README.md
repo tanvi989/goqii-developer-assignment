@@ -1,6 +1,7 @@
 GOQii Developer Assignment
 ![image](https://github.com/user-attachments/assets/4832934a-6fdf-45f2-b42e-8fe6902f90f3)
 
+![image](https://github.com/user-attachments/assets/68873025-b93a-4bc6-99a0-0cbcb5bf9b2f)
 
 
 This is a full-stack developer project for GOQii, demonstrating backend API development, frontend integration, database management, and version control using GitHub.
